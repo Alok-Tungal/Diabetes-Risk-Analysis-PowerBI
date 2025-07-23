@@ -74,7 +74,7 @@ This project demonstrates a **full-scale healthcare dashboard** using **Power BI
 
 ## 📄 Files Included
 
-* `Cotiviti_Style_PowerBI.pbix` – Main Power BI Dashboard
+* `diabetes_patient_health_data.pbit` – Main Power BI Dashboard
 * `README.md` – Project Documentation
 * 📷 `Screenshots/` – Dashboard views for resume/portfolio
 
@@ -88,15 +88,9 @@ This project demonstrates a **full-scale healthcare dashboard** using **Power BI
 
 ---
 
-## 🧾 Resume Line Example
-
-"Built a Cotiviti-style Diabetes Risk Analysis Dashboard in Power BI with 25+ visuals, using DAX, custom metrics, and drill-down features to identify high-risk patient segments."
-
----
-
 ## 📌 How to Use
 
-1. Open Power BI → File → Open 
+1. Open Power BI → File → Open → `diabetes_patient_health_data.pbit
 2. Click through pages for visuals
 3. Use slicers to filter Age/BMI/Diabetes Status
 4. Export as PDF or PowerPoint for presentations
