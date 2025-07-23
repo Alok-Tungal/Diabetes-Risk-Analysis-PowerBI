@@ -6,7 +6,7 @@ This project demonstrates a **full-scale healthcare dashboard** using **Power BI
 
 ## 📊 Dataset Details
 
-* **Source:** [Kaggle – Diabetes Patient Data](https://www.kaggle.com/datasets/whenamancodes/diabetes-patient-data)
+* **Source:** [Kaggle](https://www.kaggle.com/datasets/whenamancodes/diabetes-patient-data)
 * **Total Records:** 768 patients
 * **Columns:** Pregnancies, Glucose, BloodPressure, SkinThickness, Insulin, BMI, DiabetesPedigreeFunction, Age, Diabetes
 
@@ -96,7 +96,7 @@ This project demonstrates a **full-scale healthcare dashboard** using **Power BI
 
 ## 📌 How to Use
 
-1. Open Power BI → File → Open `Cotiviti_Style_PowerBI.pbix`
+1. Open Power BI → File → Open 
 2. Click through pages for visuals
 3. Use slicers to filter Age/BMI/Diabetes Status
 4. Export as PDF or PowerPoint for presentations
