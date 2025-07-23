@@ -1,19 +1,65 @@
-# 🩺 Diabetes Patient Health Analysis – End-to-End BI & SQL Project
+🩺 Diabetes Risk Analysis (Power BI Project)
+This project showcases a complete Power BI dashboard focused on diabetes patient risk analysis, mimicking the real-world reporting standards used in healthcare analytics companies like Cotiviti.
 
-## 📊 Project Overview
+📊 Dataset:
+Source: Kaggle – Diabetes Patient Data
 
-This project focuses on **Diabetes Risk Analysis** using real-world patient data. The goal is to identify high-risk patients, uncover patterns related to diabetes (glucose, BMI, age, etc.), and provide actionable insights using **SQL**, **Excel**, and **Power BI** – built in the style of healthcare analytics firms like **Cotiviti**.
+Patients: 768
 
-> ✅ Tools Used: `Power BI`,  `Excel`, `DAX``  
-> ✅ Dataset: [Kaggle](https://www.kaggle.com/datasets/muhammadehsan02/diabetes-patient-health-data)
+Columns: Pregnancies, Glucose, BloodPressure, SkinThickness, Insulin, BMI, DiabetesPedigreeFunction, Age, Diabetes
 
----
+🛠️ Tools Used:
+Power BI
 
-## 🧠 Key Objectives
+DAX (Calculated Columns, Measures)
 
-- Analyze how **BMI, glucose, and age** relate to diabetes status.
-- Flag **high-risk individuals** using calculated DAX metrics.
-- Build a **Cotiviti-style Power BI Dashboard** with 20+ visuals.
-- Perform **SQL risk queries** to simulate clinical scoring models.
-- Provide Excel-based pivot insights and conditional formatting.
+Data Modeling
 
+Custom Visuals (Decomposition Tree, Gauge, Bullet, Box Plot)
+
+🧩 Key Visuals & Insights:
+🔢 Chart Type	🎯 Purpose
+Pie / Donut Charts	Diabetes distribution by flag (Yes/No)
+Clustered Bar/Column	Avg BMI & Glucose by diabetes status
+Scatter Plot	Visualize BMI vs Glucose correlation
+Line Chart	Glucose trends across Age
+Heatmap / Matrix	Diabetes spread by Age Group & BMI Category
+Gauge	Avg Pedigree Function (Genetic Risk Score)
+Decomposition Tree	Drill-down on what influences diabetes most
+Treemap	Diabetes count by BMI Category
+KPI Cards	Total Patients, Avg BMI, Avg Glucose, Diabetic %
+Table with Flags	Flag high-risk patients (BMI > 35 & Glucose > 160)
+
+🧠 DAX Calculated Fields:
+Diabetes_Flag: Yes/No
+
+BMI_Category: Obese / Overweight / Normal
+
+Age_Group: Under 30 / 30–50 / Above 50
+
+Risk_Flag: High Risk if Glucose & BMI exceed thresholds
+
+Health_Score: Custom metric combining Glucose, BMI, Age
+
+🎯 Dashboard Highlights:
+5 well-organized pages:
+
+Overview
+
+Risk Segments
+
+Clinical Indicators
+
+Lab Vitals
+
+Summary Cards
+
+Interactive filters:
+
+Age Group
+
+BMI Category
+
+Diabetes Status
+
+Clean layout with 3x5 grid, consistent color themes (Red = Risk, Green = Healthy)
