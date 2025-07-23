@@ -94,9 +94,3 @@ This project demonstrates a **full-scale healthcare dashboard** using **Power BI
 2. Click through pages for visuals
 3. Use slicers to filter Age/BMI/Diabetes Status
 4. Export as PDF or PowerPoint for presentations
-
----
-
-**Author:** Alok Mahadev Tungal
-**LinkedIn:** [linkedin.com/in/your-profile](#)
-**GitHub:** [github.com/yourusername](#)
