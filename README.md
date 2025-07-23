@@ -1,65 +1,108 @@
-🩺 Diabetes Risk Analysis (Power BI Project)
-This project showcases a complete Power BI dashboard focused on diabetes patient risk analysis, mimicking the real-world reporting standards used in healthcare analytics companies like Cotiviti.
+# 🩺 Diabetes Risk Analysis – Power BI Project
 
-📊 Dataset:
-Source: Kaggle – Diabetes Patient Data
+This project demonstrates a **full-scale healthcare dashboard** using **Power BI**, inspired by real-world healthcare analytics used by companies like **Cotiviti**. The goal is to visually analyze patient health metrics and identify diabetes risk patterns using DAX, calculated metrics, and 25+ visualizations.
 
-Patients: 768
+---
 
-Columns: Pregnancies, Glucose, BloodPressure, SkinThickness, Insulin, BMI, DiabetesPedigreeFunction, Age, Diabetes
+## 📊 Dataset Details
 
-🛠️ Tools Used:
-Power BI
+* **Source:** [Kaggle – Diabetes Patient Data](https://www.kaggle.com/datasets/whenamancodes/diabetes-patient-data)
+* **Total Records:** 768 patients
+* **Columns:** Pregnancies, Glucose, BloodPressure, SkinThickness, Insulin, BMI, DiabetesPedigreeFunction, Age, Diabetes
 
-DAX (Calculated Columns, Measures)
+---
 
-Data Modeling
+## 🛠 Tools Used
 
-Custom Visuals (Decomposition Tree, Gauge, Bullet, Box Plot)
+* Power BI Desktop
+* DAX for calculated columns and measures
+* Power BI custom visuals (Decomposition Tree, Bullet Chart, Gauge, Box Plot)
 
-🧩 Key Visuals & Insights:
-🔢 Chart Type	🎯 Purpose
-Pie / Donut Charts	Diabetes distribution by flag (Yes/No)
-Clustered Bar/Column	Avg BMI & Glucose by diabetes status
-Scatter Plot	Visualize BMI vs Glucose correlation
-Line Chart	Glucose trends across Age
-Heatmap / Matrix	Diabetes spread by Age Group & BMI Category
-Gauge	Avg Pedigree Function (Genetic Risk Score)
-Decomposition Tree	Drill-down on what influences diabetes most
-Treemap	Diabetes count by BMI Category
-KPI Cards	Total Patients, Avg BMI, Avg Glucose, Diabetic %
-Table with Flags	Flag high-risk patients (BMI > 35 & Glucose > 160)
+---
 
-🧠 DAX Calculated Fields:
-Diabetes_Flag: Yes/No
+## 📌 Dashboard Features
 
-BMI_Category: Obese / Overweight / Normal
+* ✅ 5 Clean Layout Pages:
 
-Age_Group: Under 30 / 30–50 / Above 50
+  1. Diabetes Overview
+  2. Risk Segments
+  3. Clinical Factors
+  4. Lab Vitals
+  5. Summary Cards
 
-Risk_Flag: High Risk if Glucose & BMI exceed thresholds
+* ✅ Color-coded Risk Levels:
 
-Health_Score: Custom metric combining Glucose, BMI, Age
+  * Red: High Risk
+  * Orange: Pre-Diabetic
+  * Green: Healthy
 
-🎯 Dashboard Highlights:
-5 well-organized pages:
+* ✅ Slicers:
 
-Overview
+  * Age Group
+  * BMI Category
+  * Diabetes Status
 
-Risk Segments
+---
 
-Clinical Indicators
+## 🔎 Key DAX Calculated Columns
 
-Lab Vitals
+* `Diabetes_Flag` → IF(Diabetes = 1, "Yes", "No")
+* `BMI_Category` → Obese / Overweight / Normal
+* `Age_Group` → Under 30 / 30–50 / Above 50
+* `Risk_Flag` → High Risk if Glucose > 160 & BMI > 35
+* `Health_Score` → Custom metric combining Glucose, BMI, Age
 
-Summary Cards
+---
 
-Interactive filters:
+## 📈 Key Visualizations (Top 15+)
 
-Age Group
+* Pie Chart – Diabetes Distribution
+* Column Chart – Diabetes by Age Group
+* Scatter Plot – Glucose vs BMI
+* Line Chart – Glucose Trend by Age
+* Gauge – Avg Diabetes Pedigree Function
+* Heatmap – Age Group × BMI Category
+* KPI Cards – Total Patients, Avg BMI, Diabetic %
+* Treemap – Diabetes by BMI Category
+* Decomposition Tree – Diabetes Influencers
+* Table with Risk Flags – High-Risk Patients
+* Histogram – Glucose and BMI Distribution
+* Bullet Chart – Avg Glucose vs Target
+* Smart Narrative – AI Summary of Insights
 
-BMI Category
+---
 
-Diabetes Status
+## 📄 Files Included
 
-Clean layout with 3x5 grid, consistent color themes (Red = Risk, Green = Healthy)
+* `Cotiviti_Style_PowerBI.pbix` – Main Power BI Dashboard
+* `README.md` – Project Documentation
+* 📷 `Screenshots/` – Dashboard views for resume/portfolio
+
+---
+
+## 🧠 Sample Insights
+
+* Over 60% of diabetic patients are obese (BMI > 30)
+* Avg glucose for diabetics exceeds 150 mg/dL
+* 34% of patients over age 50 show high hereditary risk (pedigree > 0.7)
+
+---
+
+## 🧾 Resume Line Example
+
+"Built a Cotiviti-style Diabetes Risk Analysis Dashboard in Power BI with 25+ visuals, using DAX, custom metrics, and drill-down features to identify high-risk patient segments."
+
+---
+
+## 📌 How to Use
+
+1. Open Power BI → File → Open `Cotiviti_Style_PowerBI.pbix`
+2. Click through pages for visuals
+3. Use slicers to filter Age/BMI/Diabetes Status
+4. Export as PDF or PowerPoint for presentations
+
+---
+
+**Author:** Alok Mahadev Tungal
+**LinkedIn:** [linkedin.com/in/your-profile](#)
+**GitHub:** [github.com/yourusername](#)
